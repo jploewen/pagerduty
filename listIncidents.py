@@ -12,7 +12,7 @@ def ttr(created_at, resolved_at):
     create_date = dateutil.parser.parse(created_at)
     resolved_date = dateutil.parser.parse(resolved_at)
     age_seconds = (resolved_date - create_date).total_seconds()
-    return age_seconds/60
+    return age_seconds/60.
 
 def serviceMTTR1(token): 
 
