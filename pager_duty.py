@@ -27,7 +27,7 @@ class pagerDutyAPI:
 		
 		# https://api.pagerduty.com/incidents?time_zone=UTC&since=2017-04-17T04%3A31%3A52Z&statuses[]=resolved&serviceids[]=PZ6ZVSY&urgencies[]=high&offset=25
 
-		url = self.base_url + 'incidents?time_zone=EST&since=2017-05-19T04%3A31%3A52Z&until=2017-06-19T05%3A31%3A52Z&statuses[]=resolved&urgencies[]=high' + '&service_ids[]=' + service_ids + '&offset=' + str(offset) + '&limit=' + str(limit)
+		url = self.base_url + 'incidents?time_zone=EST&since=2017-05-23T04%3A31%3A52Z&until=2017-06-23T05%3A31%3A52Z&statuses[]=resolved&urgencies[]=high' + '&service_ids[]=' + service_ids + '&offset=' + str(offset) + '&limit=' + str(limit)
 		
 		#print url
 		
