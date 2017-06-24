@@ -25,7 +25,6 @@ def age_seconds(started_at, ended_at):
     print "started_at = %s, ended_at = %s, age_seconds = %d (seconds), %d (rounded minutes), %f (float minutes)" % (started_at, ended_at, age_seconds, round(age_seconds/60), age_seconds/60.)
     return age_seconds
 
-
 def serviceMTTR1(token): 
 
     total = 0   
